@@ -1,0 +1,37 @@
+These problems can be solved using an online dictionary and various Unix commands. Use the provided words file which is based on the ispell American English dictionary. Also provided is a words-sorted file with each line sorted in order of increasing letters, and a words-pasted file, which were created using this words.sh script. The words files are also available in VECR/a7/.
+
+a7/p1.sh - word puzzle #01
+
+    Solve puzzle #01 using an efficient sh script, i.e. find words of the form:
+      .i..i..g
+      .n.a..l..
+      .a..s..a
+    which name three North American cities, where '.' represents a missing letter.
+
+    Your script must start with the puzzle input defined as the following shell variable:
+      words=".i..i..g .n.a..l.. .a..s..a"
+    and must work properly for different puzzles of the same form by just changing the words shell variable definition.
+
+    The script output can contain debugging info and word-match answers other than cities, but should not be excessively long.
+    
+
+a7/p2.sh - word puzzle #02
+
+    Solve puzzle #02 using an efficient sh script, i.e. find a word containing the letters:
+      rseerplo
+    plus one missing letter.
+
+    Your script must start with the puzzle input defined as the following shell variable:
+      word="rseerplo"
+    and must work properly for different puzzles of the same form by just changing the word shell variable definition.
+
+    The script output can contain debugging info and alternative answers, but should not be excessively long.
+   
+
+a7/p3.sh - letter statistics
+
+    Inspired by this quote related to intuitive statistics:
+        Consider the letter K.   Is K more likely to appear as the first letter in a word OR as the third letter? 
+
+    Write an efficient sh script which displays a table of letter frequency of occurrence vs. position for a given letter    
+    argument, for positions 1 to 10.
