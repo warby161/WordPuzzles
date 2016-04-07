@@ -1,4 +1,7 @@
-These problems can be solved using an online dictionary and various Unix commands. Use the provided words file which is based on the ispell American English dictionary. Also provided is a words-sorted file with each line sorted in order of increasing letters, and a words-pasted file, which were created using this words.sh script. The words files are also available in VECR/a7/.
+These problems can be solved using an online dictionary and various Unix commands. 
+Use the provided words file which is based on the ispell American English dictionary. 
+Also provided is a words-sorted file with each line sorted in order of increasing letters, 
+and a words-pasted file, which were created using this words.sh script.
 
 a7/p1.sh - word puzzle #01
 
