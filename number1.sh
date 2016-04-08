@@ -7,6 +7,4 @@ if [ -f "$file" ]
 then
     result=$(grep -i "$pattern" "$file")
     echo "$result"
-else
-    echo "File not found" 
 fi
